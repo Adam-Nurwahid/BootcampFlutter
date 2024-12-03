@@ -16,37 +16,37 @@ void main(List<String> args) {
 
   //Soal No 2
   var sentence = "I am going to be Flutter Developer";
-  var words = sentence.split(' '); // Memisahkan kalimat menjadi array kata
 
-  var exampleFirstWord = words[0];
-  var exampleSecondWord = words[1];
-  var thirdWord = words[2]; // lakukan sendiri
-  var fourthWord = words[3]; // lakukan sendiri
-  var fifthWord = words[4]; // lakukan sendiri
-  var sixthWord = words[5]; // lakukan sendiri
-  var seventhWord = words[6]; // lakukan sendiri
+  var exampleFirstWord = sentence[0];
+  var exampleSecondWord = sentence[2] + sentence[3];
+  var thirdWord =
+      sentence[5] + sentence[6] + sentence[7] + sentence[8] + sentence[9];
+  var fourthWord = sentence[11] + sentence[12]; // lakukan sendiri
+  var fifthWord = sentence[14] + sentence[15]; // lakukan sendiri
+  var sixthWord = sentence[17] +
+      sentence[18] +
+      sentence[19] +
+      sentence[20] +
+      sentence[21] +
+      sentence[22] +
+      sentence[23]; // lakukan sendiri
+  var seventhWord = sentence[25] +
+      sentence[26] +
+      sentence[27] +
+      sentence[28] +
+      sentence[29] +
+      sentence[30] +
+      sentence[31] +
+      sentence[32] +
+      sentence[33]; // lakukan sendiri
 
-//   var exampleFirstWord = sentence[0];
-//   var exampleSecondWord = sentence[2] + sentence[3];
-// //deklarasi sendiri
-//   var secondWord = sentence[1];
-// //-----------------------
-// //Jawaban No 2
-//   var thirdWord = sentence[2];
-//   var fourthWord = sentence[3]; // lakukan sendiri
-//   var fifthWord = sentence[4]; // lakukan sendiri
-//   var sixthWord = sentence[5]; // lakukan sendiri
-//   var seventhWord = sentence[6]; // lakukan sendiri
-  //JAWABAN NO 2
   print('First Word: ' + exampleFirstWord);
-  print('Second Word: ' +
-      exampleSecondWord); //ini di soal tidak ada, jadi saya deklarasikan sendiri
+  print('Second Word: ' + exampleSecondWord);
   print('Third Word: ' + thirdWord);
   print('Fourth Word: ' + fourthWord);
   print('Fifth Word: ' + fifthWord);
   print('Sixth Word: ' + sixthWord);
   print('Seventh Word: ' + seventhWord);
-
 //Jawaban NO 3
   print("masukan Nama Depan");
 
