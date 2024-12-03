@@ -71,7 +71,6 @@ void main(List<String> args) {
   print('========================================================');
 
   //SOAL NO 4
-
   var day = 26;
   var bulan = 10;
   var tahun = 2000;
@@ -117,6 +116,6 @@ void main(List<String> args) {
     default:
       bulanNama = 'Bulan tidak valid';
   }
-
   print('$day $bulanNama $tahun');
+  print("=========== Selesai =========================");
 }
