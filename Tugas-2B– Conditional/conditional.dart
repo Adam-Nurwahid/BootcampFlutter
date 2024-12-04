@@ -6,7 +6,7 @@ void main(List<String> args) {
 
   String? answer = stdin.readLineSync()!;
 
-  if (answer != null && answer.toLowerCase() == 'y') {
+  if (answer.toLowerCase() == 'y') {
     print('Anda akan menginstall aplikasi dart');
   } else {
     print('Aborted');
@@ -19,9 +19,9 @@ void main(List<String> args) {
   print("Masukkan peran (Penyihir, Guard, Werewolf): ");
   String? peran = stdin.readLineSync()!;
 
-  if (nama == null || nama.isEmpty) {
+  if (nama.isEmpty) {
     print("Nama harus diisi!");
-  } else if (peran == null || peran.isEmpty) {
+  } else if (peran.isEmpty) {
     print("Halo $nama, Pilih peranmu untuk memulai game!");
   } else if (peran.toLowerCase() == "penyihir") {
     print("Selamat datang di Dunia Werewolf, $nama");
